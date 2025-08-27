@@ -2,6 +2,7 @@ name: do-frappe
 region: nyc
 alerts:
   - rule: DEPLOYMENT_FAILED
+  - rule: DOMAIN_FAILED
 envs:
   - key: REDIS_CACHE
     scope: RUN_AND_BUILD_TIME
