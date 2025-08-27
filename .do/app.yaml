@@ -103,25 +103,4 @@ services:
       port: 8080
     instance_size_slug: basic-m
     instance_count: 1
-    domains:
-     - domain: hims.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa
-     - domain: demo.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa
-     - domain: docs.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa
-     - domain: hr.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa
-     - domain: console.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa
-     - domain: console.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa
-     - domain: crm.afiax.africa
-       type: PRIMARY
-       zone: afiax.africa 
+    
