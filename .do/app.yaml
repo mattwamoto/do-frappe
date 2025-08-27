@@ -44,7 +44,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: mattwamoto/do-frappe
     internal_ports:
       - 6379
     instance_size_slug: basic-s
@@ -55,7 +55,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: mattwamoto/do-frappe
     internal_ports:
       - 6379
     instance_size_slug: basic-s
@@ -66,7 +66,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: mattwamoto/do-frappe
     internal_ports:
       - 6379
     instance_size_slug: basic-s
@@ -77,7 +77,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: mattwamoto/do-frappe
     internal_ports:
       - 3306
     instance_size_slug: basic-s
@@ -87,7 +87,7 @@ services:
     github:
       branch: main
       deploy_on_push: true
-      repo: aldo-o/do-frappe
+      repo: mattwamoto/do-frappe
     http_port: 8080
     internal_ports:
       - 8888
@@ -103,3 +103,25 @@ services:
       port: 8080
     instance_size_slug: basic-m
     instance_count: 1
+    domains:
+     - domain: hims.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa
+     - domain: demo.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa
+     - domain: docs.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa
+     - domain: hr.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa
+     - domain: console.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa
+     - domain: console.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa
+     - domain: crm.afiax.africa
+       type: PRIMARY
+       zone: afiax.africa 
