@@ -1,6 +1,30 @@
 [
   {
-    "url": "https://github.com/frappe/erpnext.git",
+    "url": "https://github.com/mattwamoto/erpnext",
     "branch": "version-15"
+  },
+  {
+    "url": "https://github.com/frappe/payments",
+    "branch": "version-15"
+  },
+  {
+    "url": "https://github.com/mattwamoto/hrms",
+    "branch": "main"
+  },
+  {
+    "url": "https://github.com/mattwamoto/afiaxlms",
+    "branch": "main"
+  },
+  {
+    "url": "https://github.com/mattwamoto/crm",
+    "branch": "main"
+  },
+  {
+    "url": "https://github.com/mattwamoto/helpdesk",
+    "branch": "main"
+  },
+  {
+    "url": "https://github.com/frappe/wiki",
+    "branch": "master"
   }
 ]
